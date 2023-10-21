@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.act-header {
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../images/kid-sand.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    padding: 0;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.act-body {
+    display: flex;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.container {
+    /*max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;*/
+    color: white;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    left: 0;
+    bottom: 0;
+    background: rgb(16, 182, 16);
+}
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100%/2 - 20px);
+}
+.user-details .input-box .details {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 18px;
+}
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left:10px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus
+.user-details .input-box input:valid {
+    border-color: rgb(16, 182, 16);
+}
+form .Person-type .Type-Details {
+    font-size: 20px;
+    font-weight: 500;
+}
+form .Person-type .category {
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    margin: 14px 0;
+} 
+form .Person-type .category label {
+    display: flex;
+    align-items: center;
+}
+form .Person-type .category .dot {
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+}
+#dot-1:checked ~ .category label .one {
+    border-color: #d9d9d9;
+    background: rgb(16, 182, 16);
+}
+
+#dot-2:checked ~ .category label .two {
+    border-color: #d9d9d9;
+    background: rgb(16, 182, 16);
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+/* RADIO DONATE */
+
+form .Donate-type .Type-Details {
+    font-size: 20px;
+    font-weight: 500;
+}
+form .Donate-type .categories {
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    margin: 14px 0;
+} 
+form .Donate-type .categories label {
+    display: flex;
+    align-items: center;
+}
+form .Donate-type .categories .dot {
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+}
+#dot-3:checked ~ .categories label .three {
+    border-color: #d9d9d9;
+    background: rgb(16, 182, 16);
+}
+
+#dot-4:checked ~ .categories label .four {
+    border-color: #d9d9d9;
+    background: rgb(16, 182, 16);
+}
+
+#dot-5:checked ~ .categories label .five {
+    border-color: #d9d9d9;
+    background: rgb(16, 182, 16);
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+
+
+form .button {
+    height: 45px;
+    margin: 20px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background: rgb(16, 182, 16);
+    border: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Message {
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.Message-Box textarea {
+    width: 100%;
+    height: 150px;
+    color: white;
+    background: linear-gradient(rgba(34, 33, 33, 0.527),rgba(37, 36, 36, 0.5));
+    padding: 15px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+.Message-Box textarea::focus {
+    border: 1px solid black;
+    outline: 0;
+}
+
+@media (max-width: 584px) {
+    .container {
+        max-width: 100%;
+    }
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width:100%;
+    }
+    form .gender-details .category {
+        width: 100%;
+    }
+    .container form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
+
+

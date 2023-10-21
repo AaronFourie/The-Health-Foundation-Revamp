@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Chaotic Nature XISD6329.props" />
+</Project>

@@ -1,0 +1,219 @@
+h1 {
+	font-size: 71px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.slider {
+  background-image: url('../images/hero_backgrounds/news1.jpg');
+}
+#body_wrapper{
+  max-width: 100%;
+  margin: -4rem 17rem 3rem 17rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(143, 143, 143, 0.1);
+  transition: 0.3s;
+  border: 1px solid rgb(201, 201, 201, 0.4);
+  width: 421px;
+  margin: 1rem 0rem;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(109, 109, 109, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+#body_wrapper .card h4{
+  font-weight: 400;
+  font-size: 15px;
+  color:black;
+}
+#body_wrapper .card span{
+  font-weight: 300;
+  font-size: 13px;
+  font-style:italic;
+  color:rgba(19, 19, 19, 0.5)
+}
+#body_wrapper .card p{
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color:rgba(19, 19, 19)
+}
+/* Style the form element with a border around it */
+.newsletter_wrapper{
+  width: 100%;
+  height: 60vh;
+  background: url('../images/hero_backgrounds/heor9.jpg');
+  background-size: cover;
+}
+form {
+  width: 500px;
+  padding: 3rem 0;
+  margin: 0 auto;
+}
+
+/* Add some padding and a grey background color to containers */
+.container1 {
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.reveal3{
+  position: relative;
+  transform: translateX(-200px);
+  opacity: 0;
+  transition: all 2.4s ease;
+}
+
+.reveal3.active {
+  transform: translateX(0px);
+  opacity: 1;
+}
+#wrapper{
+  width: 71%;
+  margin: 0 auto;
+  padding: 0rem 0 4rem 0;
+}
+#wrapper h2{
+  padding-bottom: 1rem;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th{
+  color: green;
+}
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+@media only screen and (max-width:1600px){
+  #body_wrapper{
+    max-width: 100%;
+    margin: -4rem 5rem 3rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #wrapper{
+    width: 75%;
+    margin: 0 auto;
+    padding: 0rem 0 4rem 0;
+  }
+}
+@media only screen and (max-width:1400px){
+  #body_wrapper{
+    max-width: 100%;
+    margin: -4rem 10rem 3rem 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  #wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0rem 0 4rem 0;
+  }
+}
+@media only screen and (max-width:1200px){
+  #body_wrapper{
+    max-width: 100%;
+    margin: -4rem 5rem 3rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  #wrapper{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0rem 0 4rem 0;
+  }
+}
+@media only screen and (max-width:1000px){
+  #body_wrapper{
+    max-width: 100%;
+    margin: -4rem 2rem 3rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  #wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0rem 0 4rem 0;
+  }
+}
+@media only screen and (max-width:900px){
+  #body_wrapper{
+    max-width: 100%;
+    margin: -4rem 14rem 3rem 14rem;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media only screen and (max-width:700px){
+  #body_wrapper{
+    max-width: 100%;
+    margin: -4rem 7rem 3rem 7rem;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media only screen and (max-width:600px){
+  #body_wrapper{
+    max-width: 100%;
+    margin: -4rem 2rem 3rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

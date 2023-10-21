@@ -1,0 +1,774 @@
+
+
+/** END */
+
+/* Image Sliding */
+.slider {
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#slideImg {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #22222283;
+}
+
+
+
+
+.sponsers {
+    margin: 0;
+    width: 100vw;
+    padding: 4rem 11em 0em 11em;
+    box-sizing: border-box;
+    display: grid;
+}
+
+    .sponsers .sponser_list {
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+        .sponsers .sponser_list ul {
+            list-style: none;
+            display: inline-flex;
+        }
+
+            .sponsers .sponser_list ul li {
+                padding: 1rem 1.5rem;
+            }
+
+    .sponsers .sponser_txt {
+        text-align: center;
+        display: block;
+    }
+
+.our_pillars {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 6rem 0em 8rem 0em;
+    box-sizing: border-box;
+    background: url('../images/hero_backgrounds/hero4.jpg');
+    display: grid;
+    background-size: cover;
+}
+
+    .our_pillars .sponser_list {
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+        .our_pillars .sponser_list ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+            .our_pillars .sponser_list ul li {
+                padding: 1rem 1.5rem;
+                border-radius: 12px;
+                margin: 0 0.75em;
+                width: 20em;
+                background: rgba(255, 255, 255, 0.705);
+                display: inline-block;
+            }
+
+                .our_pillars .sponser_list ul li h3 {
+                    color: rgb(20, 20, 20);
+                }
+
+                .our_pillars .sponser_list ul li p {
+                    color: rgba(37, 37, 37, 0.7);
+                }
+
+    .our_pillars .sponser_txt h2 {
+        text-align: center;
+        display: block;
+        font-size: 40px;
+        margin-bottom: 1em;
+        color: rgb(49, 49, 49);
+    }
+
+h1 {
+    font-size: 71px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sponsers .sponser_txt h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+/**
+h2{
+	font-size: 40px;
+	font-weight: bold;
+    text-align: center;
+}*/
+p {
+    margin-bottom: 20px;
+}
+
+.sponsers .sponser_txt h1 {
+    font-size: 71px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sponsers .sponser_txt p {
+    margin-bottom: 20px;
+}
+
+.who_we_are {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 0;
+    display: flex;
+    color: rgb(44, 44, 44);
+    font-weight: 300;
+    line-height: 2rem;
+    text-align: justify;
+    background: url('../images/content_bgs/1.jpg');
+    background-size: cover;
+    padding: 7em 5em;
+    border-radius: 50px;
+    box-shadow: 0px 20px 50px 7px rgba(39, 77, 39, 0.08);
+}
+
+    .who_we_are p {
+        max-width: 700px;
+    }
+
+    .who_we_are .text {
+        display: block;
+        float: right;
+        padding: 0 7em;
+    }
+
+    .who_we_are .wrap {
+        float: left;
+    }
+
+        .who_we_are .wrap .about-logo {
+            border-radius: 25%;
+        }
+
+    .who_we_are h2 {
+        text-align: left;
+        color: rgb(44, 44, 44);
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+.donatexcontact_links {
+    margin-top: 4rem;
+}
+
+    .donatexcontact_links a {
+        margin: 0 2rem 0 0;
+    }
+
+.wrapper {
+    margin: auto;
+    border-radius: 2px 40px;
+    background: white;
+    max-width: 1400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content5 {
+    width: 100vw;
+    padding: 2rem 0em 4em 0em;
+    color: #ffffff;
+}
+
+    .content5 .wrapper {
+        display: flex;
+        padding: 2rem 5rem 2rem 0rem;
+        grid-template-columns: 1fr;
+        border: none;
+        outline: none;
+    }
+
+        .content5 .wrapper .download {
+            transition: all 1s;
+            width: 50vw;
+            text-align: justify;
+            padding: 4rem 15rem 2rem 5rem;
+            background: #12550c;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            float: left;
+        }
+
+        .content5 .wrapper h1 {
+            text-align: left;
+            color: rgb(164, 218, 18);
+        }
+
+        .content5 .wrapper h2 {
+            color: rgb(241, 198, 7);
+        }
+
+        .content5 .wrapper .app_prototype {
+            width: 40%;
+            float: right;
+        }
+
+        .content5 .wrapper p {
+            text-align: justify;
+            line-height: 32px;
+            font-size: large;
+            font-weight: 300;
+        }
+
+.content4 {
+    width: 100vw;
+    height: 50vh;
+    padding: 4rem 4em 4em 4em;
+    color: black;
+    background: #d3d2d2cb;
+}
+
+    .content4 .wrapper {
+        padding: 3rem 0;
+        text-align: justify;
+        max-width: 1400px;
+        background: none;
+    }
+
+.content4-text {
+    padding: 0;
+}
+
+.content4 .code_logo {
+    border-radius: 50%;
+}
+
+.content4 .content4-text p {
+    color: black;
+    font-weight: 300;
+    line-height: 2rem;
+    max-width: 700px;
+}
+
+.content4 .content4-text h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.content3 {
+    width: 100vw;
+    padding: 0rem 10em 4em 10em;
+    color: black;
+}
+
+    .content3 .wrapper {
+        padding: 3rem 0;
+        text-align: justify;
+        max-width: 1400px;
+    }
+
+    .content3 .img {
+        border-radius: 50px;
+    }
+
+.content3-text {
+    background-color: rgba(223, 223, 223, 0.021);
+    padding: 2em 0em;
+}
+
+.content3 .content3-text p {
+    color: rgb(19, 19, 19);
+    font-weight: 300;
+    line-height: 2rem;
+    max-width: 700px;
+}
+
+.content3 .content3-text h2 {
+    text-align: left;
+    font-size: 40px;
+}
+
+.wrap {
+    float: right;
+    margin: 0px 0 0 50px;
+}
+
+.content3 .wrap .about-logo {
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 0%;
+}
+
+@media only screen and (max-width:1399px) {
+    .who_we_are {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: 50px;
+        box-shadow: 0px 20px 50px 7px rgba(39, 77, 39, 0.08);
+    }
+
+        .who_we_are p {
+            max-width: 700px;
+        }
+
+        .who_we_are .text {
+            display: block;
+            float: right;
+            padding: 4em 2em;
+        }
+
+        .who_we_are .wrap {
+            float: left;
+            align-items: center;
+        }
+
+            .who_we_are .wrap .about-logo {
+                margin: 2rem auto;
+                border-radius: 25%;
+                width: 350px;
+                height: 350px;
+            }
+
+        .who_we_are h2 {
+            text-align: left;
+            color: rgb(39, 39, 39);
+            font-size: 40px;
+            font-weight: bold;
+        }
+}
+/* Media query for screen width <= 815px */
+@media only screen and (max-width: 1100px) {
+    .who_we_are {
+        padding: 2em 2em;
+        border-radius: 8px 8px;
+        margin: 0 auto;
+        display: grid;
+    }
+
+        .who_we_are p {
+            max-width: 90%;
+        }
+
+        .who_we_are .text {
+            padding: 2em;
+        }
+
+        .who_we_are .wrap {
+            margin: 1rem auto;
+        }
+}
+
+.who_we_are .wrap .about-logo {
+    border-radius: 25%;
+    width: 300px;
+    height: 300px;
+}
+/* Media query for screen width <= 815px */
+@media only screen and (max-width: 1200px) {
+    .sponsers {
+        width: 100%;
+        padding: 4rem 5em 4em 5em;
+        background: white;
+        box-sizing: border-box;
+        display: grid;
+    }
+
+    .content2, .content3, .content4 {
+        width: 100vw;
+        padding: 2rem;
+        background: white;
+        color: #333;
+    }
+
+        .content2 h1, .content3 h1, .content4 h1 {
+            font-size: 30px;
+        }
+    /*
+  footer h1{
+      font-size: 30px;
+  }*/
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .sponsers {
+        width: 100vw;
+        padding: 3rem 3em 0em 3em;
+        background: white;
+        box-sizing: border-box;
+    }
+
+        .sponsers .sponser_list {
+            padding: 1rem;
+            margin: 0 auto;
+        }
+
+            .sponsers .sponser_list ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+    .who_we_are {
+        padding: 2em 2em;
+        border-radius: 8px 8px;
+        margin: 0;
+    }
+
+        .who_we_are p {
+            max-width: 700px;
+        }
+
+        .who_we_are .text {
+            padding: 0 2em;
+        }
+
+        .who_we_are .wrap {
+            margin: 0 auto;
+        }
+
+            .who_we_are .wrap .about-logo {
+                border-radius: 25%;
+                width: 300px;
+                height: 300px;
+            }
+
+    .sponsers .sponser_list ul li {
+        padding: 1.5rem 4rem;
+    }
+
+    .sponsers .sponser_txt {
+        text-align: center;
+        display: block;
+        padding: 0 0 -2rem 0;
+    }
+
+    .content3 .img {
+        width: 700px;
+        height: 450px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .content3 .wrap {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .content3 {
+        padding: 4rem 2em 4em 2em;
+        display: grid;
+    }
+
+        .content3 .content3-text {
+            margin: 2rem;
+            text-align: left;
+        }
+
+    .our_pillars {
+        margin: 0 auto;
+        width: 100%;
+        padding: 4rem 0em 4rem 0em;
+    }
+
+    .content5 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: whitesmoke;
+        color: rgb(255, 255, 255);
+    }
+
+        .content5 .wrapper {
+            width: 100vw;
+            display: grid;
+            padding: 0;
+            grid-template-columns: 1fr;
+            border: none;
+            outline: none;
+            background: #1d1d1d;
+            padding-bottom: 2rem;
+        }
+
+            .content5 .wrapper .download {
+                transition: all 1s;
+                width: 80vw;
+                margin: 0 auto;
+                text-align: justify;
+                padding: 4rem 0;
+                background: #1d1d1d;
+                border-bottom-left-radius: 40px;
+                border-top-left-radius: 0;
+            }
+
+            .content5 .wrapper h1 {
+                margin: 0;
+                padding: 0;
+                line-height: 5rem;
+                text-align: left;
+                color: rgb(164, 218, 18);
+            }
+
+            .content5 .wrapper h2 {
+                color: rgb(241, 198, 7);
+            }
+
+            .content5 .wrapper .app_prototype {
+                margin: 0 auto;
+                justify-content: center;
+                align-content: center;
+                background: #1d1d1d;
+            }
+
+                .content5 .wrapper .app_prototype .img {
+                    width: 275px;
+                    height: 500px;
+                }
+
+            .content5 .wrapper p {
+                text-align: justify;
+                line-height: 32px;
+                font-size: large;
+                font-weight: 300;
+            }
+}
+
+@media only screen and (max-width: 700px) {
+    .who_we_are {
+        margin: 0;
+        padding: 1em 2em;
+        border-radius: 8px 8px;
+    }
+
+        .who_we_are .text {
+            display: block;
+            margin: 0 auto;
+            text-align: left;
+            padding: 1rem 2em;
+        }
+
+        .who_we_are.about-logo {
+            width: 250px;
+            height: 250px;
+        }
+
+    .sponsers {
+        width: 100vw;
+        padding: 2rem 1em 0em 1em;
+        background: white;
+        box-sizing: border-box;
+    }
+
+        .sponsers .sponser_list {
+            padding: 0.5rem;
+            margin: 0 auto;
+        }
+
+            .sponsers .sponser_list ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+            }
+
+                .sponsers .sponser_list ul li {
+                    padding: 1.5rem 2rem;
+                }
+
+
+    .our_pillars {
+        margin: 0 auto;
+        width: 100%;
+        padding: 4rem 0em 4rem 0em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .sponsers {
+        width: 100vw;
+        padding: 1.5rem;
+        background: white;
+        box-sizing: border-box;
+    }
+
+        .sponsers .sponser_list {
+            padding: 1rem;
+            margin: 0 auto;
+        }
+
+            .sponsers .sponser_list ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+            }
+
+                .sponsers .sponser_list ul li {
+                    padding: 1.5rem 1.5rem;
+                }
+
+        .sponsers .sponser_txt {
+            text-align: center;
+            display: block;
+            padding: 0 0 -2rem 0;
+        }
+}
+
+@media only screen and (max-width: 1700px) {
+    .our_pillars .sponser_list ul {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+        .our_pillars .sponser_list ul li {
+            margin: 1rem;
+        }
+
+    .content3 {
+        width: 100vw;
+        padding: 4rem 6em 4em 6em;
+        color: black;
+    }
+
+    .who_we_are {
+        padding: 5em 2em;
+        border-radius: 8px 8px;
+    }
+
+        .who_we_are p {
+            max-width: 700px;
+        }
+
+        .who_we_are .text {
+            display: block;
+            margin: 0 auto;
+            text-align: left;
+            padding: 2em;
+        }
+
+        .who_we_are .wrap .about-logo {
+            border-radius: 25%;
+            width: 200;
+            height: 200;
+        }
+}
+
+@media only screen and (max-width: 750px) {
+    .our_pillars .sponser_list ul {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .content3 .img {
+        width: 100%;
+        height: 375px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .content3 .wrap {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .content3 {
+        padding: 4rem 2rem;
+        display: grid;
+    }
+
+        .content3 .content3-text {
+            margin: 2rem;
+            text-align: left;
+        }
+}
+
+@media only screen and (max-width: 800px) {
+    section#hero-main .main-content p {
+        text-align: left;
+        padding: 0 4rem;
+        font-size: 20px;
+    }
+
+    section#hero-main .main-content h1 {
+        font-size: 50px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 1rem;
+        padding: 0 4rem;
+    }
+
+    .slider {
+        height: 58vh;
+    }
+
+    .overlay {
+        height: 58vh;
+    }
+
+    section#hero-main {
+        padding: 0;
+        margin: 0;
+    }
+
+    .content3 .img {
+        width: 600px;
+        height: 25rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .content3 .wrap {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .content3 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 2rem;
+        display: grid;
+    }
+
+        .content3 .content3-text {
+            margin: 0 auto;
+            max-width: 90%;
+            padding: 0;
+            text-align: left;
+        }
+
+    .who_we_are .text p, .who_we_are .text h2 {
+        color: white;
+    }
+}

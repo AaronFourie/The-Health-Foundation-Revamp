@@ -1,0 +1,529 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Chaotic Nature XISD6329.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Chaotic Nature XISD6329.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\archives.css",
+      "PackagePath": "staticwebassets\\css\\archives.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\contact-us.css",
+      "PackagePath": "staticwebassets\\css\\contact-us.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\hero.css",
+      "PackagePath": "staticwebassets\\css\\hero.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\news.css",
+      "PackagePath": "staticwebassets\\css\\news.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\projects.css",
+      "PackagePath": "staticwebassets\\css\\projects.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\style-copy.css",
+      "PackagePath": "staticwebassets\\css\\style-copy.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\css\\support.css",
+      "PackagePath": "staticwebassets\\css\\support.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\7087441.jpg",
+      "PackagePath": "staticwebassets\\images\\7087441.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\Idependant_code.png",
+      "PackagePath": "staticwebassets\\images\\Idependant_code.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\Loading_icon.gif",
+      "PackagePath": "staticwebassets\\images\\Loading_icon.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\app.jpg",
+      "PackagePath": "staticwebassets\\images\\app.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\blog-ubuntu.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-ubuntu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\content_bgs\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\content_bgs\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\content_bgs\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\content_bgs\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\first-1000-days.jpg",
+      "PackagePath": "staticwebassets\\images\\first-1000-days.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hellodoctor.jpg",
+      "PackagePath": "staticwebassets\\images\\hellodoctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\about1.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\about2.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\about2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\heor9.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\heor9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero1.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero10.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero2.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero3.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero4.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero5.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero6.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero7.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\hero8.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\hero8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\hero_backgrounds\\news1.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_backgrounds\\news1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\kid-sand.jpg",
+      "PackagePath": "staticwebassets\\images\\kid-sand.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\logo-1.png",
+      "PackagePath": "staticwebassets\\images\\logo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\logo-removebg-preview(1).png",
+      "PackagePath": "staticwebassets\\images\\logo-removebg-preview(1).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\logo-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\logo-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\mobile.png",
+      "PackagePath": "staticwebassets\\images\\mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\mother.jpg",
+      "PackagePath": "staticwebassets\\images\\mother.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card1.png",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card10.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card11.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card12.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card2.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card3.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card4.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card5.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card6.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card7.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card8.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\news_cards\\card9.jpg",
+      "PackagePath": "staticwebassets\\images\\news_cards\\card9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\right.png",
+      "PackagePath": "staticwebassets\\images\\right.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\slide_1.jpg",
+      "PackagePath": "staticwebassets\\images\\slide_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\slide_2.jpg",
+      "PackagePath": "staticwebassets\\images\\slide_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\social_media_links\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\social_media_links\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\social_media_links\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\social_media_links\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\social_media_links\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\social_media_links\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\sponsers\\World-Health-Organization-Logo.jpg",
+      "PackagePath": "staticwebassets\\images\\sponsers\\World-Health-Organization-Logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\sponsers\\adidas_logo.png",
+      "PackagePath": "staticwebassets\\images\\sponsers\\adidas_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\sponsers\\african_mobiliyty_solutions_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\sponsers\\african_mobiliyty_solutions_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\sponsers\\discovery_foundation_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\sponsers\\discovery_foundation_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\sponsers\\hello_doctor_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\sponsers\\hello_doctor_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\v870-tang-35.jpg",
+      "PackagePath": "staticwebassets\\images\\v870-tang-35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\images\\wowlogo.jpg",
+      "PackagePath": "staticwebassets\\images\\wowlogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\Chaotic Nature XISD6329\\Chaotic Nature XISD6329\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Chaotic Nature XISD6329.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Chaotic Nature XISD6329.props",
+      "PackagePath": "build\\Chaotic Nature XISD6329.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Chaotic Nature XISD6329.props",
+      "PackagePath": "buildMultiTargeting\\Chaotic Nature XISD6329.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Chaotic Nature XISD6329.props",
+      "PackagePath": "buildTransitive\\Chaotic Nature XISD6329.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

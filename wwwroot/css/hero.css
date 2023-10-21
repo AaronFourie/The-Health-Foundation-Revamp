@@ -1,0 +1,38 @@
+
+.slider {
+    width:100vw;
+    height: 50vh;
+    background-image: url('../images/hero_backgrounds/hero10.jpg');
+    background-size: cover;
+    z-index:-2;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .overlay{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 50vh;
+    z-index:-1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2222225d;
+  }
+  .hero-txt {
+    border-radius: 8px;
+    padding: 14vh 0 0 0;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+    margin: 0;
+
+}

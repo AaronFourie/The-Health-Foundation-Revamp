@@ -1,0 +1,80 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Chaotic_Nature_XISD6329-3451d3db-e483-4171-b90c-6b33326a5778</UserSecretsId>
+    <RootNamespace>Chaotic_Nature_XISD6329</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\7087441.jpg" />
+    <None Include="wwwroot\images\app.jpg" />
+    <None Include="wwwroot\images\blog-ubuntu.jpg" />
+    <None Include="wwwroot\images\content_bgs\1.jpg" />
+    <None Include="wwwroot\images\content_bgs\2.jpg" />
+    <None Include="wwwroot\images\first-1000-days.jpg" />
+    <None Include="wwwroot\images\hellodoctor.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\about1.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\about2.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\heor9.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero1.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero10.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero2.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero3.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero4.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero5.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero6.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero7.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\hero8.jpg" />
+    <None Include="wwwroot\images\hero_backgrounds\news1.jpg" />
+    <None Include="wwwroot\images\Idependant_code.png" />
+    <None Include="wwwroot\images\kid-sand.jpg" />
+    <None Include="wwwroot\images\Loading_icon.gif" />
+    <None Include="wwwroot\images\logo-1.png" />
+    <None Include="wwwroot\images\logo-removebg-preview%281%29.png" />
+    <None Include="wwwroot\images\logo-removebg-preview.png" />
+    <None Include="wwwroot\images\logo.png" />
+    <None Include="wwwroot\images\mobile.png" />
+    <None Include="wwwroot\images\mother.jpg" />
+    <None Include="wwwroot\images\news_cards\card1.png" />
+    <None Include="wwwroot\images\news_cards\card10.jpg" />
+    <None Include="wwwroot\images\news_cards\card11.jpg" />
+    <None Include="wwwroot\images\news_cards\card12.jpg" />
+    <None Include="wwwroot\images\news_cards\card2.jpg" />
+    <None Include="wwwroot\images\news_cards\card3.jpg" />
+    <None Include="wwwroot\images\news_cards\card4.jpg" />
+    <None Include="wwwroot\images\news_cards\card5.jpg" />
+    <None Include="wwwroot\images\news_cards\card6.jpg" />
+    <None Include="wwwroot\images\news_cards\card7.jpg" />
+    <None Include="wwwroot\images\news_cards\card8.jpg" />
+    <None Include="wwwroot\images\news_cards\card9.jpg" />
+    <None Include="wwwroot\images\right.png" />
+    <None Include="wwwroot\images\slide_1.jpg" />
+    <None Include="wwwroot\images\slide_2.jpg" />
+    <None Include="wwwroot\images\social_media_links\facebook.png" />
+    <None Include="wwwroot\images\social_media_links\linkedin.png" />
+    <None Include="wwwroot\images\social_media_links\twitter.png" />
+    <None Include="wwwroot\images\sponsers\adidas_logo.png" />
+    <None Include="wwwroot\images\sponsers\african_mobiliyty_solutions_logo.jpg" />
+    <None Include="wwwroot\images\sponsers\discovery_foundation_logo.jpg" />
+    <None Include="wwwroot\images\sponsers\hello_doctor_logo.jpg" />
+    <None Include="wwwroot\images\sponsers\World-Health-Organization-Logo.jpg" />
+    <None Include="wwwroot\images\v870-tang-35.jpg" />
+    <None Include="wwwroot\images\wowlogo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.10" />
+  </ItemGroup>
+
+</Project>

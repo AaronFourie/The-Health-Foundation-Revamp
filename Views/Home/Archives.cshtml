@@ -1,0 +1,138 @@
+﻿@{
+    ViewData["Title"] = "Archives Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Health Foundation</title>
+	<link rel="stylesheet" href="~/css/style.css" />
+	<link rel="stylesheet" href="~/css/hero.css">
+	<link rel="stylesheet" href="~/css/archives.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<section id="hero-main">
+			<div class="main-content">
+				<div class="wrap">
+					<div id="preloader"></div>
+					<div class="slider">
+						<div class="overlay">
+						</div>
+					</div>
+		</section>
+		<div class="hero-txt">
+			<h1>Archives</h1>
+		</div>
+	</header>
+
+	<h1 style="text-align:center; margin:-2rem 0 5rem 0; font-size:40px; font-weight:300">News Archives</h1>
+	<div id="body_wrapper">
+		<div class="card">
+			<img src="~/images/news_cards/card11.jpg" alt="Avatar" height="300px" width="420px">
+			<div class="container">
+				<h4>MANDELA DAY CELEBRATION</h4>
+				<span>18th Jul 2016</span><br><br>
+				<p>Mandela Day Celebration July 2016 Madiba had great love for children. He acknowledged them as great treasures and future leaders of the country. In celebrating the visionary leader, the Health [...]</p><br>
+				<div class="read_more">
+					<a href="#">Read more</a>
+				</div>
+			</div>
+		</div>
+		<div style="height:300px" class="card">
+			<div class="container">
+				<br>
+				<h4>BDU SERVICE RECOGNITION</h4>
+				<span>14th Jul 2016</span><br><br>
+				<p>BDU Service recognition January 2016 Appreciation is a wonderful thing; it makes what is excellent in others belong to us as well. The Health Foundation hosted a Service Recognition event as a [...]</p><br>
+				<div class="read_more">
+					<a href="#"><img src="../images/right.png" width="10px" height="10px" />Read more</a>
+				</div>
+			</div>
+		</div>
+		<div style="height:300px" class="card">
+			<div class="container">
+				<br>
+				<h4>THE HEALTH FOUNDATION FACILITATES GREATER TYGERBERG PARTNERSHIP HEALTH FORUM</h4>
+				<span>14th Nov 2015</span><br><br>
+				<p>The Health Foundation facilitates Greater Tygerberg Partnership Health Forum The Health Foundation was requested to facilitate the second meeting of the Greater Tygerberg Partnership’s Health [...]</p><br>
+				<div class="read_more">
+					<a href="#"><img src="~/images/right.png" width="10px" height="10px" />Read more</a>
+				</div>
+			</div>
+		</div>
+		<div style="height:300px;" class="card">
+			<div class="container">
+				<br>
+				<h4>CELEBRATING A HEALTH PARTNERSHIP WITH LIBERTY MEDICAL SCHEME</h4>
+				<span>14th Jul 2016</span><br><br>
+				<p>Celebrating a Health Partnership with Liberty Medical Scheme The Health Foundation is proud to have facilitated another private sector partnership in support of the Wellness Mobiles for School [...]</p><br>
+				<div class="read_more">
+					<a href="#"><img src="~/images/right.png" width="10px" height="10px" />Read more</a>
+				</div>
+			</div>
+		</div>
+		<div style="height:350px; margin-top:-220px" class="card">
+			<div class="container">
+				<br>
+				<h4>GERMAN-AFRICAN HEALTHCARE SYMPOSIUM, OCTOBER 2016</h4>
+				<span>14th Oct 2015</span><br><br>
+				<p>German-African Healthcare Symposium, October 2016 October 2015 Following the World Health Summit, Jenni and board member Japie du Toit participated in the 2nd German-African Healthcare Symposium, [...]</p><br>
+				<div class="read_more">
+					<a href="#"><img src="~/images/right.png" width="10px" height="10px" />Read more</a>
+				</div>
+			</div>
+		</div>
+		<div style="margin-top:-220px; height: 650px" class="card">
+			<img src="~/images/news_cards/card12.jpg" alt="Avatar" height="400px" width="420px">
+			<div class="container">
+				<h4>FIRST 1000 DAYS</h4>
+				<span>1st May 2016</span><br><br>
+				<p>First 1000 Days May 2016 The Health Foundation has adopted a core strategic focus for the next 3-5 years: Retaining our long-term vision of contributing to Health System Strengthening through [...]</p>
+				<div class="read_more">
+					<a href="#"><img src="~/images/right.png" width="10px" height="10px" />Read more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</main>
+	<script class="loading">
+
+		var loader = document.getElementById("preloader");
+
+		window.addEventListener("load", function () {
+			loader.style.display = "none";
+		})
+
+	</script>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', reveal);
+
+		function reveal() {
+			var reveals = document.querySelectorAll('.reveal');
+
+			for (var i = 0; i < reveals.length; i++) {
+
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 150;
+
+				if (revealtop < windowheight - revealpoint) {
+					reveals[i].classList.add('active');
+				}
+				else {
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+
+	</script>
+
+	<script defer src="~/js/app.js"></script>
+</body>
+</html>

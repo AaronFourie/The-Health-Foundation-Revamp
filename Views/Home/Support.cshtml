@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Support Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Health Foundation</title>
+	<link rel="stylesheet" href="~/css/style.css">
+	<link rel="stylesheet" href="~/css/hero.css">
+	<link rel="stylesheet" href="~/css/support.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<section id="hero-main">
+			<div class="main-content">
+				<div class="wrap">
+
+					<div class="slider">
+						<div class="overlay">
+						</div>
+					</div>
+				</div>
+		</section>
+		<div class="hero-txt">
+			<h1>Support</h1>
+		</div>
+	</header>
+
+
+	<div class="support">
+		<div class="text">
+			<h2>Support Us</h2><br>
+			<p>Optimising the wellness of our people is an investment in our collective quality of life and long-term social and economic health. Your donations make a difference in people’s lives by enabling The Health Foundation to improve wellness in South Africa. Donations may be financial, in kind (materials such as building materials, equipment, or consumables), or by means of your time and expertise. Whether it is organising sports days or nominating The Health Foundation for your company’s social investment initiative; we look forward to partnering with you and your business, community or social network to make your gift of health a reality.</p>
+			<div class="donatexcontact_links">
+				<a href="#" class="cta-btn green">Make a donation</a>
+				<a href="#" class="cta-btn red">Contact Us</a>
+			</div>
+		</div>
+		<div class="wrap">
+			<img class="about-logo" src="~/images/hero_backgrounds/about2.jpg" alt="The Health Foundation logo" width="370" height="470">
+		</div>
+	</div>
+
+	<div class="contact_wrapper">
+		<form action="action_page.php">
+			<div class="container1">
+				<h2>Contact Us</h2>
+			</div>
+
+			<div class="container1" style="background-color:white">
+				<input type="text" placeholder="name" name="name" required>
+				<input type="text" placeholder="email" name="email" required>
+				<input type="text" placeholder="mobile number" name="number" required>
+				<input type="text" placeholder="message" name="email" required>
+				<p>Select user type</p><br>
+				<input type="radio" id="html" name="fav_language" value="HTML">
+				<label for="html">Individual</label><br>
+				<input type="radio" id="css" name="fav_language" value="CSS">
+				<label for="css">Company</label><br>
+			</div>
+
+			<div class="container1">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', reveal);
+
+		function reveal() {
+			var reveals = document.querySelectorAll('.reveal');
+
+			for (var i = 0; i < reveals.length; i++) {
+
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 150;
+
+				if (revealtop < windowheight - revealpoint) {
+					reveals[i].classList.add('active');
+				}
+				else {
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+
+	</script>
+
+	<script defer src="~/js/app.js"></script>
+</body>
+</html>

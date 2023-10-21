@@ -1,0 +1,110 @@
+h1 {
+	font-size: 71px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.slider {
+    background-image: url('../images/hero_backgrounds/hero7.jpg');
+  }
+.support{
+	width: 1400px;
+	margin: -7em auto;
+	display: flex;
+	padding: 4rem 6rem;
+	
+}
+.support .text{
+	padding: 0rem 2rem;
+	margin-bottom: 2rem;
+	float:left;
+}
+.support .text p{
+	color: rgb(100, 100, 100);
+	font-weight: 300;
+	line-height: 50px;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	text-align: justify;
+}
+.support .text h2{
+	font-weight: 400;
+}
+.support .donatexcontact_links{
+	margin-top: 4rem;
+}
+.support .donatexcontact_links a{
+	font-size: 18px;
+	padding: 10px 15px;
+}
+.support .wrap{
+	float: right;
+	margin: 0 2rem;
+	border-radius: 8px;
+}
+.red{
+	margin-left: 2rem;
+	font-weight: 400;
+}
+.green{
+	border:1px solid green;
+	font-weight: 400;
+}
+.contact_wrapper{
+	margin-top: 4rem;
+	width: 100%;
+	height:70vh;
+	background: url('../images/hero_backgrounds/heor9.jpg');
+	background-size: cover;
+  }
+  form {
+	width: 700px;
+	padding: 3rem 0;
+	margin: 0 auto;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container1 {
+	padding: 30px;
+	margin: 0 auto;
+	background-color: #f1f1f1;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+	width: 100%;
+	padding: 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+	margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	border: none;
+  }
+  
+  input[type=submit]:hover {
+	opacity: 0.8;
+  }
+  .reveal3{
+	position: relative;
+	transform: translateX(-200px);
+	opacity: 0;
+	transition: all 2.4s ease;
+  }
+  
+  .reveal3.active {
+	transform: translateX(0px);
+	opacity: 1;
+  }
+  #wrapper h2{
+	padding-bottom: 1rem;
+  }
