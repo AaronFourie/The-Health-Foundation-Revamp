@@ -132,7 +132,6 @@ label .donatebtn {
     outline: none;
     border: none;
     background: rgb(11, 167, 11); /** was green rgb(118, 189, 25)*/
-    ;
     color: white;
     letter-spacing: 1.1px;
     font-weight: bold;
@@ -164,7 +163,7 @@ label .donatebtn {
 
     .call_to_action:hover {
         background: #4e921ef6;
-        color: black;
+        color: white;
     }
 /* LEARN MORE BUTTON */
 
@@ -407,7 +406,7 @@ footer {
         }
 
             .quickLinks ul li a:hover {
-                color: white;
+                color: rgb(11, 167, 11);
             }
 
 .contact {

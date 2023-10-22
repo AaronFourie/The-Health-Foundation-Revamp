@@ -2420,16 +2420,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+    color: #fff;
+    background-color: rgb(11, 167, 11);
+    border-color: rgb(11, 167, 11);
 }
 
-.btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
+    .btn-primary:hover {
+        color: #fff;
+        background-color: rgb(56, 179, 8);
+        border-color: rgb(56, 179, 8);
+    }
 
 .btn-primary:focus, .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
@@ -6508,7 +6508,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+    background-color: rgb(11, 167, 11) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6518,7 +6518,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #fff !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6636,7 +6636,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #007bff !important;
+    border-color: rgb(11, 167, 11) !important;
 }
 
 .border-secondary {
@@ -9834,6 +9834,7 @@ button.bg-dark:focus {
 
 .font-weight-bold {
   font-weight: 700 !important;
+  color: white;
 }
 
 .font-weight-bolder {
@@ -9849,7 +9850,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #007bff !important;
+    color: rgb(11, 167, 11) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {

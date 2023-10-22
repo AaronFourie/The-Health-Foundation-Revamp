@@ -1,9 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@{
-    ViewData["Title"] = "Home Page";
-}
 <head>
     <style>
         #hero-main {
@@ -11,7 +8,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh; /* Adjust the height to your preference */
-            background-image: url('../images/hero_backgrounds/about1.jpg'); /* Add your background image here */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero_backgrounds/about1.jpg');
             background-size: cover;
         }
 
@@ -34,7 +31,7 @@
         .cta-btn {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #007BFF; /* Adjust the button background color to your preference */
+            background-color: green; /* Adjust the button background color to your preference */
             color: #fff; /* Adjust the button text color to your preference */
             text-decoration: none;
             border-radius: 5px;
@@ -43,7 +40,8 @@
         }
 
             .cta-btn:hover {
-                background-color: #0056b3; /* Adjust the button hover background color to your preference */
+                background-color: #06CE00;
+                color: #fff; /* Adjust the button hover background color to your preference */
             }
     </style>
 </head>
@@ -51,7 +49,7 @@
     <div class="hero-content">
         <h1>The Health Foundation<span></span><br><span class="Foundation"></span></h1>
         <p>We are a non-profit organization committed to improving the health and well-being of people in need</p>
-        <a href="#" class="cta-btn">More Info <i class="fa fa-long-arrow-right" aria-hidden="true" style="font-size: 20px;"></i></a>
+        <a href="/Home/About" class="cta-btn">More Info <i class="fa fa-long-arrow-right" aria-hidden="true" style="font-size: 20px;"></i></a>
     </div>
 </section>
 
@@ -159,12 +157,12 @@
         <div class="fot quickLinks">
             <h2>Quick Links</h2>
             <ul>
-                <li><a href="Index.php">Home</a></li>
-                <li><a href="Main_Web_pages/About.php">About Us</a></li>
-                <li><a href="Main_Web_pages/Archives.php">Archives</a></li>
-                <li><a href="Main_Web_pages/News.php">News</a></li>
-                <li><a href="Main_Web_pages/Projects.php">Projects</a></li>
-                <li><a href="Main_Web_pages/Support.php">Support</a></li>
+                <li><a href="/Home/Index">Home</a></li>
+                <li><a href="/Home/About">About Us</a></li>
+                <li><a href="/Home/Archives">Archives</a></li>
+                <li><a href="/Home/News">News</a></li>
+                <li><a href="/Home/Projects">Projects</a></li>
+                <li><a href="/Home/Support">Support</a></li>
             </ul>
         </div>
 
