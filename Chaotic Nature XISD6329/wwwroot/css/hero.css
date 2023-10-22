@@ -23,16 +23,16 @@
     left: 0;
     background: #2222225d;
   }
-  .hero-txt {
-    border-radius: 8px;
-    padding: 14vh 0 0 0;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    left: 0;
-    text-align: center;
-    color: #ffffff;
-    z-index: 1;
-    margin: 0;
 
-}
+  .hero-txt {
+      border-radius: 8px;
+      padding: 14vh 0 0 0;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      left: 0;
+      text-align: center;
+      color: #ffffff;
+      z-index: 1;
+      margin: 0;
+  }

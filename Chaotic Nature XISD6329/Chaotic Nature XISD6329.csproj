@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -9,6 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Views\Home\About.cshtml" />
+    <None Include="Views\Home\Archives.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\News.cshtml" />
+    <None Include="Views\Home\Projects.cshtml" />
+    <None Include="Views\Home\Support.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_HeaderPartial.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LoginPartial.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
     <None Include="wwwroot\images\7087441.jpg" />
     <None Include="wwwroot\images\app.jpg" />
     <None Include="wwwroot\images\blog-ubuntu.jpg" />

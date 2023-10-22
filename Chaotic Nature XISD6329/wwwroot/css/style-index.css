@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -67,10 +67,10 @@ nav {
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px; /** was 10px; */
     margin-top: 0rem;
     z-index: 300;
-    background: none;
+    background: rgb(11, 167, 11);
     color: white;
     padding: 25px 40px 25px 40px;
 }
@@ -162,8 +162,8 @@ label .donatebtn {
 }
 
     .call_to_action:hover {
-        background: #4e921ef6;
-        color: white;
+        background: #fff;
+        color: black;
     }
 /* LEARN MORE BUTTON */
 
