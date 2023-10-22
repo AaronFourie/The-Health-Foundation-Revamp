@@ -24,11 +24,14 @@
                 <li><a href="../Home/News">News</a></li>
                 <li><a href="../Home/Projects">Projects</a></li>
                 <li><a href="../Home/Support">Support</a></li>
-                <a class="donatebtn" href="#">Donate</a>
+                
             </ul>
         </label>
-        <a class="call_to_action" href="#">Donate</a>
+        <!-- Include the login partial within the navigation menu -->
+        @await Html.PartialAsync("_LoginPartial")
+
     </nav>
+
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -46,29 +49,6 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 
-    <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyCD_fq2egRwv4Xh4z8XcLn9TIaY0szgZFo",
-    authDomain: "wilapp-ec2d3.firebaseapp.com",
-    databaseURL: "https://wilapp-ec2d3-default-rtdb.firebaseio.com",
-    projectId: "wilapp-ec2d3",
-    storageBucket: "wilapp-ec2d3.appspot.com",
-    messagingSenderId: "128702374525",
-    appId: "1:128702374525:web:44f6352a987fee7ecf4714",
-    measurementId: "G-RVRWDZKJ4H"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
+   
 </body>
 </html>
