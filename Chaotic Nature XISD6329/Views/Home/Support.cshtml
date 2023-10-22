@@ -1,161 +1,160 @@
-﻿@{
-    ViewData["Title"] = "Support Page";
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Health Foundation</title>
-	<link rel="stylesheet" href="~/css/style.css">
-	<link rel="stylesheet" href="~/css/hero.css">
-	<link rel="stylesheet" href="~/css/support.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Health Foundation</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/hero.css">
+    <link rel="stylesheet" href="~/css/support.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js"></script>
+    <style>
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Close button styles */
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-	<header>
-		<section id="hero-main">
-			<div class="main-content">
-				<div class="wrap">
+    <header>
+        <section id="hero-main">
+            <div class="main-content">
+                <div class "wrap">
+                    <div class="slider">
+                        <div class="overlay">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="hero-txt">
+            <h1>Support</h1>
+        </div>
+    </header>
+    <div class="support">
+        <div class="text">
+            <h2>Contact Us</h2>
+            <p>Optimizing the wellness of our people is an investment in our collective quality of life and long-term social and economic health. Your donations make a difference in people’s lives by enabling The Health Foundation to improve wellness in South Africa. Donations may be financial, in kind (materials such as building materials, equipment, or consumables), or by means of your time and expertise. Whether it is organizing sports days or nominating The Health Foundation for your company’s social investment initiative; we look forward to partnering with you and your business, community, or social network to make your gift of health a reality.</p>
+            <div class="donatexcontact_links">
+                <a href="#" class="cta-btn green">Make a donation</a>
+                <a href="#" class="cta-btn red">Contact Us</a>
+            </div>
+        </div>
+        <div class="wrap">
+            <img class="about-logo" src="~/images/hero_backgrounds/about2.jpg" alt="The Health Foundation logo" width="370" height="470">
+        </div>
+    </div>
+    <div class="contact_wrapper">
+        <form id="contactForm">
+            <div class="container1">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="container1" style="background-color:white">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email" name="email" required>
+                <input type="text" placeholder="Mobile Number" name="number" required>
+                <textarea placeholder="Message" name="message" required></textarea>
+                <p>Select user type</p><br>
+                <input type="radio" id="individual" name="userType" value="Individual">
+                <label for="individual">Individual</label><br>
+                <input type="radio" id="company" name="userType" value="Company">
+                <label for="company">Company</label><br>
+            </div>
+            <div class="container1">
+                <input type="submit" value="Submit">
+            </div>
+            <div class="container1" id="successMessage" style="color: green; text-align: center;"></div>
+            <div class="container1" id="errorMessage" style="color: red; text-align: center;"></div>
+        </form>
+    </div>
 
-					<div class="slider">
-						<div class="overlay">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="hero-txt">
-			<h1>Support</h1>
-		</div>
-	</header>
+    <!-- Your Firebase configuration and JavaScript code here -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+        import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
+        import { getAuth } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
 
+        const firebaseConfig = {
+            apiKey: "AIzaSyCD_fq2egRwv4Xh4z8XcLn9TIaY0szgZFo",
+            authDomain: "wilapp-ec2d3.firebaseapp.com",
+            databaseURL: "https://wilapp-ec2d3-default-rtdb.firebaseio.com",
+            projectId: "wilapp-ec2d3",
+            storageBucket: "wilapp-ec2d3.appspot.com",
+            messagingSenderId: "128702374525",
+            appId: "1:128702374525:web:44f6352a987fee7ecf4714",
+            measurementId: "G-RVRWDZKJ4H"
+        };
 
-	<div class="support">
-		<div class="text">
-			<h2>Support Us</h2><br>
-			<p>Optimising the wellness of our people is an investment in our collective quality of life and long-term social and economic health. Your donations make a difference in people’s lives by enabling The Health Foundation to improve wellness in South Africa. Donations may be financial, in kind (materials such as building materials, equipment, or consumables), or by means of your time and expertise. Whether it is organising sports days or nominating The Health Foundation for your company’s social investment initiative; we look forward to partnering with you and your business, community or social network to make your gift of health a reality.</p>
-			<div class="donatexcontact_links">
-				<a href="#" class="cta-btn green">Make a donation</a>
-				<a href="#" class="cta-btn red">Contact Us</a>
-			</div>
-		</div>
-		<div class="wrap">
-			<img class="about-logo" src="~/images/hero_backgrounds/about2.jpg" alt="The Health Foundation logo" width="370" height="470">
-		</div>
-	</div>
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase();
+        const auth = getAuth(app);
 
-	<div class="contact_wrapper">
-		<form action="action_page.php">
-			<div class="container1">
-				<h2>Contact Us</h2>
-			</div>
+        // Check if a user is signed in
+        auth.onAuthStateChanged((user) => {
+            if (user) {
+                // User is signed in. Allow them to submit the form.
+                document.getElementById("contactForm").addEventListener("submit", function (e) {
+                    e.preventDefault();
 
-			<div class="container1" style="background-color:white">
-				<input type="text" placeholder="name" name="name" required>
-				<input type="text" placeholder="email" name="email" required>
-				<input type="text" placeholder="mobile number" name="number" required>
-				<input type="text" placeholder="message" name="email" required>
-				<p>Select user type</p><br>
-				<input type="radio" id="html" name="fav_language" value="HTML">
-				<label for="html">Individual</label><br>
-				<input type="radio" id="css" name="fav_language" value="CSS">
-				<label for="css">Company</label><br>
-			</div>
+                    var name = document.querySelector('input[name="name"]').value;
+                    var email = document.querySelector('input[name="email"]').value;
+                    var number = document.querySelector('input[name="number"]').value;
+                    var message = document.querySelector('textarea[name="message"]').value;
+                    var userType = document.querySelector('input[name="userType"]:checked').value;
 
-			<div class="container1">
-				<input type="submit" value="Submit">
-			</div>
-		</form>
-	</div>
+                    // Reference to your Firebase database node where you want to save the data.
+                    const userUID = user.uid; // Use the user's UID as the database key
+                    const userRef = ref(db, 'contact/' + userUID);
 
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
+                    // Create an object with the user's data
+                    const userData = {
+                        name: name,
+                        email: email,
+                        number: number,
+                        message: message,
+                        userType: userType
+                    };
 
-	<footer>
-		<div class="container">
-			<div class="fot aboutus">
-				<h2> About Us </h2>
-				<p> The Health Foundation is an independent Non-Profit Company and Public Benefit Organisation. </p>
+                    // Set the data in the Firebase Realtime Database
+                    set(userRef, userData)
+                        .then(() => {
+                            document.getElementById("successMessage").innerText = "Data saved successfully!";
+                            document.getElementById("errorMessage").innerText = "";
+                        })
+                        .catch((error) => {
+                            document.getElementById("errorMessage").innerText = "Error saving data: " + error.message;
+                        });
+                });
+            } else {
+                document.getElementById("contactForm").addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    alert("Please log in to submit the form.");
+                });
+            }
+        });
 
-				<ul class="sci">
-					<li><a href="https://www.facebook.com/theHealthFdnSA/"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://twitter.com/theHealthFdnSA"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://www.linkedin.com/company/the-health-foundation"><i class="fa fa-linkedin"></i></a></li>
-				</ul>
-			</div>
-
-			<div class="fot quickLinks">
-				<h2>Quick Links</h2>
-				<ul>
-					<li><a href="Index">Home</a></li>
-					<li><a href="About">About Us</a></li>
-					<li><a href="Archives">Archives</a></li>
-					<li><a href="News">News</a></li>
-					<li><a href="Projects">Projects</a></li>
-					<li><a href="Support">Support</a></li>
-				</ul>
-			</div>
-
-			<div class="fot contact">
-				<h2>Contact Info</h2>
-				<ul class="info">
-					<li>
-						<span><i class="fa fa-map-marker"></i></span>
-						<span>
-							F01, Rostra Building,
-							<br> The Forum Complex,<br> North Bank Lane,
-							<br> Century City, 7441,
-							<br> Cape Town
-						</span>
-					</li>
-					<li>
-						<span><i class="fa fa-phone"></i></span>
-						<p><a href="0214181580">Tel: +27 (0) 21 418 1580</a></p>
-					</li>
-					<li>
-						<span><i class="fa fa-envelope"></i></span>
-						<p><a href="info@thehealthfoundation.org.za">info@thehealthfoundation.org.za</a></p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
-
-	<script type="text/javascript">
-		window.addEventListener('scroll', reveal);
-
-		function reveal() {
-			var reveals = document.querySelectorAll('.reveal');
-
-			for (var i = 0; i < reveals.length; i++) {
-
-				var windowheight = window.innerHeight;
-				var revealtop = reveals[i].getBoundingClientRect().top;
-				var revealpoint = 150;
-
-				if (revealtop < windowheight - revealpoint) {
-					reveals[i].classList.add('active');
-				}
-				else {
-					reveals[i].classList.remove('active');
-				}
-			}
-		}
-
-	</script>
-
-	<script defer src="~/js/app.js"></script>
+        function generateUserUID() {
+            return 'user_' + Math.random().toString(36).substring(2);
+        }
+    </script>
 </body>
 </html>

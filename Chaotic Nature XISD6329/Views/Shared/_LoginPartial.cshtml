@@ -2,25 +2,72 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-<ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-    <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
-    </li>
-    <li class="nav-item">
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-        </form>
-    </li>
-}
-else
-{
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
-}
+<ul class="navbar-nav" id="navbar-links">
 </ul>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+    import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyCD_fq2egRwv4Xh4z8XcLn9TIaY0szgZFo",
+        authDomain: "wilapp-ec2d3.firebaseapp.com",
+        databaseURL: "https://wilapp-ec2d3-default-rtdb.firebaseio.com",
+        projectId: "wilapp-ec2d3",
+        storageBucket: "wilapp-ec2d3.appspot.com",
+        messagingSenderId: "128702374525",
+        appId: "1:128702374525:web:44f6352a987fee7ecf4714",
+        measurementId: "G-RVRWDZKJ4H"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth(app);
+
+    const updateUI = (user) => {
+        const navbarLinks = document.getElementById("navbar-links");
+
+        if (user) {
+            // User is signed in
+            navbarLinks.innerHTML = `
+                        <li class="nav-item">
+                            <span class="nav-link text-dark">Hello ${user.email}!</span>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-link text-dark" id="logout-button">Logout</button>
+                        </li>
+                    `;
+            document.getElementById("logout-button").addEventListener("click", () => {
+                console.log("Logout button clicked");
+                signOut(auth).then(() => {
+                    console.log("User signed out successfully");
+                    // Redirect or update the UI as needed
+                    setTimeout(() => {
+                        window.location.href = "../Home/Index";
+                    }, 2000);
+                }).catch((error) => {
+                    console.error("Error signing out:", error);
+                });
+            });
+        } else {
+            // User is signed out
+            navbarLinks.innerHTML = `
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="../Home/Register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class "nav-link text-dark" href="../Home/Login">Login</a>
+                        </li>
+                    `;
+        }
+    };
+
+    // Listen for changes in user authentication state
+    onAuthStateChanged(auth, (user) => {
+        console.log("User state changed:", user);
+        updateUI(user);
+    });
+</script>
