@@ -97,7 +97,7 @@ h1 {
       margin: -4rem 10rem 3rem 10rem;
       display: grid;
       grid-template-columns: 1fr 1fr ;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr; /** 1fr */
     }
     #wrapper{
       width: 80%;
