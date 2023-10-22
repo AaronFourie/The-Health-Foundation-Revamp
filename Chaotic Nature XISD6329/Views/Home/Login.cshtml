@@ -121,19 +121,7 @@
                         errorElement.style.display = "block"; // Show the error message
                     });
             });
-               // Listen for changes in user authentication state
-        onAuthStateChanged(auth, (user) => {
-            if (user) {
-
-               setTimeout(function () {
-                            // Redirect to the index page after a 2-second delay
-                            window.location.href = "../Home/Index";
-                        }, 2000);
-            } else {
-                // User is signed out
-                // Show login/registration options
-            }
-        });
+           
         </script>
     </div>
 </body>
