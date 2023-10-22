@@ -5,15 +5,20 @@
 <html>
 <head>
     <style>
-        #registration-container {
+       #registration-container {
             text-align: center;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: #fff;
-            margin: 0 auto;
-            width: 400px; /* Increase the width for a bigger form */
+            margin: auto;
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
         }
 
         form {
@@ -34,7 +39,7 @@
         }
 
         #register-button {
-            background-color: #007BFF; /* Blue background color */
+            background-color: red;
             color: #fff; /* White text color */
             border: none;
             border-radius: 5px;
@@ -44,7 +49,7 @@
         }
 
             #register-button:hover {
-                background-color: #0056b3; /* Darker blue on hover */
+                background-color: darkred; /* Darker red on hover */
             }
 
         #error-message, #success-message {

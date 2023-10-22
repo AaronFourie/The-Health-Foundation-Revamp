@@ -6,15 +6,20 @@
 <html>
 <head>
     <style>
-        #login-container {
+       #login-container {
             text-align: center;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: #fff;
-            margin: 0 auto;
+            margin: auto;
             width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
         }
 
         form {
@@ -35,7 +40,7 @@
         }
 
         #login-button {
-            background-color: #007BFF;
+            background-color: red;
             color: #fff;
             border: none;
             border-radius: 5px;
@@ -45,7 +50,7 @@
         }
 
             #login-button:hover {
-                background-color: #0056b3;
+                background-color: darkred; /* Darker red on hover */
             }
 
         #error-message, #success-message {
