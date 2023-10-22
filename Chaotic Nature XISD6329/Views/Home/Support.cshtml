@@ -1,8 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Support Page";
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -12,6 +8,8 @@
     <link rel="stylesheet" href="~/css/hero.css">
     <link rel="stylesheet" href="~/css/support.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js"></script>
     <style>
         /* Modal styles */
         .modal {
@@ -39,7 +37,7 @@
     <header>
         <section id="hero-main">
             <div class="main-content">
-                <div class="wrap">
+                <div class "wrap">
                     <div class="slider">
                         <div class="overlay">
                         </div>
@@ -53,8 +51,8 @@
     </header>
     <div class="support">
         <div class="text">
-            <h2>Support Us</h2><br>
-            <p>Optimising the wellness of our people is an investment in our collective quality of life and long-term social and economic health. Your donations make a difference in people’s lives by enabling The Health Foundation to improve wellness in South Africa. Donations may be financial, in kind (materials such as building materials, equipment, or consumables), or by means of your time and expertise. Whether it is organizing sports days or nominating The Health Foundation for your company’s social investment initiative; we look forward to partnering with you and your business, community or social network to make your gift of health a reality.</p>
+            <h2>Contact Us</h2>
+            <p>Optimizing the wellness of our people is an investment in our collective quality of life and long-term social and economic health. Your donations make a difference in people’s lives by enabling The Health Foundation to improve wellness in South Africa. Donations may be financial, in kind (materials such as building materials, equipment, or consumables), or by means of your time and expertise. Whether it is organizing sports days or nominating The Health Foundation for your company’s social investment initiative; we look forward to partnering with you and your business, community, or social network to make your gift of health a reality.</p>
             <div class="donatexcontact_links">
                 <a href="#" class="cta-btn green">Make a donation</a>
                 <a href="#" class="cta-btn red">Contact Us</a>
@@ -64,27 +62,21 @@
             <img class="about-logo" src="~/images/hero_backgrounds/about2.jpg" alt="The Health Foundation logo" width="370" height="470">
         </div>
     </div>
-    <!-- Add a modal for error message -->
-    <div id="errorModal" class="modal">
-        <span class="close" onclick="closeModal('errorModal')">&times;</span>
-        <p>Error saving data: Unauthorized</p>
-    </div>
     <div class="contact_wrapper">
         <form id="contactForm">
             <div class="container1">
                 <h2>Contact Us</h2>
             </div>
             <div class="container1" style="background-color:white">
-                <input type="text" placeholder="name" name="name" required>
-                <input type="text" placeholder="email" name="email" required>
-                <input type="text" placeholder="mobile number" name="number" required>
-                <!-- Change this input to a textarea -->
-                <textarea placeholder="message" name="message" required></textarea>
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email" name="email" required>
+                <input type="text" placeholder="Mobile Number" name="number" required>
+                <textarea placeholder="Message" name="message" required></textarea>
                 <p>Select user type</p><br>
                 <input type="radio" id="individual" name="userType" value="Individual">
                 <label for="individual">Individual</label><br>
                 <input type="radio" id="company" name="userType" value="Company">
-                <label for "company">Company</label><br>
+                <label for="company">Company</label><br>
             </div>
             <div class="container1">
                 <input type="submit" value="Submit">
@@ -93,120 +85,76 @@
             <div class="container1" id="errorMessage" style="color: red; text-align: center;"></div>
         </form>
     </div>
-    <script type="text/javascript">
-        window.addEventListener('scroll', reveal);
-        function reveal() {
-            var reveals = document.querySelectorAll('.reveal');
-            for (var i = 0; i < reveals.length; i++) {
-                var windowheight = window.innerHeight;
-                var revealtop = reveals[i].getBoundingClientRect().top;
-                var revealpoint = 150;
-                if (revealtop < windowheight - revealpoint) {
-                    reveals[i].classList.add('active');
-                } else {
-                    reveals[i].classList remove('active');
-                }
-            }
-        }
-    </script>
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
-        import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
-         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
-        import { database } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
 
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-            apiKey: "AIzaSyCD_fq2egRwv4Xh4z8XcLn9TIaY0szgZFo",
-            authDomain: "wilapp-ec2d3.firebaseapp.com",
-            databaseURL: "https://wilapp-ec2d3-default-rtdb.firebaseio.com",
-            projectId: "wilapp-ec2d3",
-            storageBucket: "wilapp-ec2d3.appspot.com",
-            messagingSenderId: "128702374525",
-            appId: "1:128702374525:web:44f6352a987fee7ecf4714",
-            measurementId: "G-RVRWDZKJ4H"
-        };
+    <!-- Your Firebase configuration and JavaScript code here -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+        import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
+        import { getAuth } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
+
+               const firebaseConfig = {
+    apiKey: "AIzaSyCD_fq2egRwv4Xh4z8XcLn9TIaY0szgZFo",
+    authDomain: "wilapp-ec2d3.firebaseapp.com",
+    databaseURL: "https://wilapp-ec2d3-default-rtdb.firebaseio.com",
+    projectId: "wilapp-ec2d3",
+    storageBucket: "wilapp-ec2d3.appspot.com",
+    messagingSenderId: "128702374525",
+    appId: "1:128702374525:web:44f6352a987fee7ecf4714",
+    measurementId: "G-RVRWDZKJ4H"
+  };
+
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const contactForm = document.getElementById('contactForm');
-        const firebaseStatusModal = document.getElementById('firebaseStatusModal');
-        const firebaseStatusMessage = document.getElementById('firebaseStatusMessage');
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const contactForm = document.getElementById('contactForm');
-            const successMessage = document.getElementById('successMessage');
-            const errorMessage = document.getElementById('errorMessage');
-            // Firebase Authentication state listener
-            firebase.auth().onAuthStateChanged(function (user) {
-                if (user) {
-                    // User is signed in, allow them to submit data
-                    contactForm.addEventListener('submit', function (e) {
-                        e.preventDefault();
-                        // Get user's UID as a unique identifier
-                        const userUID = user.uid;
-                        // Collect data from the form
-                        const name = document.querySelector('input[name="name"]').value;
-                        const email = document.querySelector('input[name="email"]').value;
-                        const number = document.querySelector('input[name="number"]').value;
-                        const message = document.querySelector('textarea[name="message"]').value;
-                        const userType = document.querySelector('input[name="userType"]:checked').value;
-                        // Reference to your Firebase database node where you want to save the data.
-                        const database = firebase.database();
-                        const databaseRef = database.ref('contacts');
-                        // Check if the Realtime Database is connected
-                        if (firebase.app().database().goOnline) {
-                            // Data saving initiated
-                            successMessage.textContent = 'Data saving initialized';
-                            // Delay for 2 seconds before hiding the message
-                            setTimeout(function () {
-                                successMessage.textContent = '';
-                            }, 2000);
-                            // Save the data to the Firebase Realtime Database under the user's UID.
-                            databaseRef.push(contactData)
-                                .then(() => {
-                                    // Data saved successfully.
-                                    console.log('Data saved successfully');
-                                    contactForm.reset();
-                                    // Show a success message to the user
-                                    successMessage.textContent = 'Data saved successfully!';
-                                    // Delay for 2 seconds before hiding the message
-                                    setTimeout(function () {
-                                        successMessage.textContent = '';
-                                    }, 2000);
-                                })
-                                .catch((error) => {
-                                    // Handle the error
-                                    console.error('Error saving data: ', error);
-                                    // Show an error message to the user
-                                    errorMessage.textContent = 'Error saving data: ' + error;
-                                    // Delay for 2 seconds before hiding the message
-                                    setTimeout(function () {
-                                        errorMessage.textContent = '';
-                                    }, 2000);
-                                });
-                        } else {
-                            // Show an error message to the user
-                            errorMessage.textContent = 'Realtime Database is not connected';
-                            // Delay for 2 seconds before hiding the message
-                            setTimeout(function () {
-                                errorMessage.textContent = '';
-                            }, 2000);
-                        }
-                    });
-                } else {
-                    // User is not signed in, display an error message or redirect to the login page
-                    errorMessage.style.display = 'block';
-                    successMessage.style.display = 'none';
-                    // You can add a message to prompt the user to log in before submitting data
-                }
-            });
-           
+        const db = getDatabase();
+        const auth = getAuth(app);
+
+        // Check if a user is signed in
+        auth.onAuthStateChanged((user) => {
+            if (user) {
+                // User is signed in. Allow them to submit the form.
+                document.getElementById("contactForm").addEventListener("submit", function (e) {
+                    e.preventDefault();
+
+                    var name = document.querySelector('input[name="name"]').value;
+                    var email = document.querySelector('input[name="email"]').value;
+                    var number = document.querySelector('input[name="number"]').value;
+                    var message = document.querySelector('textarea[name="message"]').value;
+                    var userType = document.querySelector('input[name="userType"]:checked').value;
+
+                    // Reference to your Firebase database node where you want to save the data.
+                    const userUID = user.uid; // Use the user's UID as the database key
+                    const userRef = ref(db, 'contact/' + userUID);
+
+                    // Create an object with the user's data
+                    const userData = {
+                        name: name,
+                        email: email,
+                        number: number,
+                        message: message,
+                        userType: userType
+                    };
+
+                    // Set the data in the Firebase Realtime Database
+                    set(userRef, userData)
+                        .then(() => {
+                            document.getElementById("successMessage").innerText = "Data saved successfully!";
+                            document.getElementById("errorMessage").innerText = "";
+                        })
+                        .catch((error) => {
+                            document.getElementById("errorMessage").innerText = "Error saving data: " + error.message;
+                        });
+                });
+            } else {
+                document.getElementById("contactForm").addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    alert("Please log in to submit the form.");
+                });
+            }
         });
+
+        function generateUserUID() {
+            return 'user_' + Math.random().toString(36).substring(2);
+        }
     </script>
-    <script defer src="~/js/app.js"></script>
 </body>
 </html>
