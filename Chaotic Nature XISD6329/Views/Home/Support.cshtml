@@ -54,14 +54,23 @@
             <h2>Contact Us</h2>
             <p>Optimizing the wellness of our people is an investment in our collective quality of life and long-term social and economic health. Your donations make a difference in people’s lives by enabling The Health Foundation to improve wellness in South Africa. Donations may be financial, in kind (materials such as building materials, equipment, or consumables), or by means of your time and expertise. Whether it is organizing sports days or nominating The Health Foundation for your company’s social investment initiative; we look forward to partnering with you and your business, community, or social network to make your gift of health a reality.</p>
             <div class="donatexcontact_links">
-                <a href="#" class="cta-btn green">Make a donation</a>
-                <a href="#" class="cta-btn red">Contact Us</a>
+                <a href="https://www.sandbox.paypal.com/donate/?hosted_button_id=MSJ6EX9PBXANQ" class="cta-btn green">Make a donation</a>
+                <a ref="contact_wrapper" class="cta-btn red">Contact Us</a>
             </div>
         </div>
         <div class="wrap">
             <img class="about-logo" src="~/images/hero_backgrounds/about2.jpg" alt="The Health Foundation logo" width="370" height="470">
         </div>
     </div>
+    
+    <form action="https://www.sandbox.paypal.com/donate" method="post" target="_top">
+        <input type="hidden" name="hosted_button_id" value="MSJ6EX9PBXANQ" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_ZA/i/scr/pixel.gif" width="2" height="2" />
+        <img alt="" border="0" src="~/images/QRCode.png" width="200" height="200"/>
+    </form>
+
+
     <div class="contact_wrapper">
         <form id="contactForm">
             <div class="container1">
@@ -113,6 +122,7 @@
                     <li><a href="/Home/News">News</a></li>
                     <li><a href="/Home/Projects">Projects</a></li>
                     <li><a href="/Home/Support">Support</a></li>
+                     <li><a href="https://www.sandbox.paypal.com/donate/?hosted_button_id=MSJ6EX9PBXANQ">Donate</a></li>
                 </ul>
             </div>
 

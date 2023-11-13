@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/css/style-index.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/index.css" asp-append-version="true"/>
+    
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 </head>
 <body>
-    <nav id="navbar" style="background-color: green;">
-        <a class="logo" href="Index.php">
-            logo
+    <nav id="navbar" style="background-color: forestgreen; padding: 0px 2rem; box-shadow: 25px 38px 24px 12px rgba(0,0,0,0.04)" >
+        <a href="Index.php" style="padding:0; box-shadow:none">
+            <img src="~/images/logo-1.png" alt="" height="65" style="padding:0; box-shadow: none" />
         </a>
         <label>
             <input type="checkbox">
@@ -24,11 +26,10 @@
                 <li><a href="../Home/News">News</a></li>
                 <li><a href="../Home/Projects">Projects</a></li>
                 <li><a href="../Home/Support">Support</a></li>
-                <a class="donatebtn" href="#">Donate</a>
+                <li><a href="https://www.sandbox.paypal.com/donate/?hosted_button_id=MSJ6EX9PBXANQ">Donate</a></li>
             </ul>
         </label>
         
-        <a class="call_to_action" href="#">Donate</a>
         <partial name="_LoginPartial" />
     </nav>
 

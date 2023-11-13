@@ -33,4 +33,11 @@ body {
     .h-custom-2 {
         height: 100%;
     }
+   
+}
+@media (max-width: 550px) {
+    label ul li a {
+        color: black;
+       background: orange;
+    }
 }

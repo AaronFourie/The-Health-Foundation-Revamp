@@ -57,7 +57,8 @@ h1 {
 	background-size: cover;
   }
   form {
-	width: 700px;
+	max-width: 700px;
+	min-width:400px;
 	padding: 3rem 0;
 	margin: 0 auto;
   }

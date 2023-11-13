@@ -1,80 +1,93 @@
 ﻿@{
-    Layout = "_Layout";
+    ViewData["Title"] = "Login Page";
 }
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-       #login-container {
-            text-align: center;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
-            margin: auto;
-            width: 400px;
-            position: absolute;
-            top: 50%;
-            left: 0;
-            right: 0;
-            transform: translateY(-50%);
-        }
-
-        form {
-            text-align: left;
-            margin-top: 20px;
-        }
-
-        label {
-            display: block;
-        }
-
-        input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        #login-button {
-            background-color: red;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-weight: bold;
-        }
-
-            #login-button:hover {
-                background-color: darkred; /* Darker red on hover */
-            }
-
-        #error-message, #success-message {
-            margin-top: 10px;
-            color: red; /* Error message text color */
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login+register.css" asp-append-version="true" />
+    
 </head>
-<body>
-    <div id="login-container">
-        <h1>Login</h1>
-        <form id="login-form">
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="button" id="login-button">Login</button>
-            <div id="error-message" style="display: none;"></div> <!-- Hidden by default -->
-            <div id="success-message" style="display: none; color: green;"></div> <!-- Hidden by default -->
-        </form>
+<body style="background: whitesmoke">
+<section class="content7">
+    <div class="wrapper">
+        <div class="wrap">
+            <img class="img" src="~/images/p3.jpg" alt="The Health Foundation logo">
+        </div>
+        <div class="content3-text">
+                <h2>Login to your account</h2><br />
+                <form id="login-form">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required autocomplete="off">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required autocomplete="off">
+                    </div>
+                    
+                    <div class="button-group">
+                        <button type="button" id="login-button">Login</button>
+                    </div>
+                </form>
+                <div id="error-message" style="color: red;"></div>
+                <div id="success-message" style="color: green;"></div>
+                <br /><br />
+                <p>Don't have an account?   <a href="./Register" id="register-prompt-link">Register</a></p>
+        </div>
+
+    </div>
+
+</section>
+
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+        var reveals = document.querySelectorAll('.reveal');
+
+        for (var i = 0; i < reveals.length; i++) {
+
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+
+            if (revealtop < windowheight - revealpoint) {
+                reveals[i].classList.add('active');
+            }
+            else {
+                reveals[i].classList.remove('active');
+            }
+        }
+    }
+
+</script>
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+        var reveals = document.querySelectorAll('.reveal2');
+
+        for (var i = 0; i < reveals.length; i++) {
+
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 200;
+
+            if (revealtop < windowheight - revealpoint) {
+                reveals[i].classList.add('active');
+            }
+            else {
+                reveals[i].classList.remove('active');
+            }
+        }
+    }
+
+</script>
+
+
+       
 
         <script type="module">
 
@@ -128,6 +141,5 @@
             });
            
         </script>
-    </div>
-</body>
+        </body>
 </html>

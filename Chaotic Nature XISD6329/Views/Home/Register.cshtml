@@ -4,81 +4,172 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="~/css/login+register.css" asp-append-version="true" />
     <style>
-       #registration-container {
-            text-align: center;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
-            margin: auto;
-            width: 400px;
-            position: absolute;
-            top: 50%;
-            left: 0;
-            right: 0;
-            transform: translateY(-50%);
+        #navbar {
+            background-color: none;
         }
 
-        form {
-            text-align: left;
-            margin-top: 20px; /* Increase the spacing between form elements */
+        nav {
+            background-color: none;
+        }
+
+        h1 {
+            font-size: 36px; /* Adjust the font size to your preference */
+        }
+
+        p {
+            font-size: 18px; /* Adjust the font size to your preference */
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: green; /* Adjust the button background color to your preference */
+            color: #fff; /* Adjust the button text color to your preference */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px; /* Adjust the font size to your preference */
+            transition: background-color 0.3s;
+        }
+
+            .cta-btn:hover {
+                background-color: #06CE00;
+                color: #fff; /* Adjust the button hover background color to your preference */
+            }
+
+        .content7 {
+            height: 67vh;
+            max-width: 100%;
+            padding: 2rem 3rem;
+            margin: 5rem auto;
+            background: white;
+            border-radius: 25px;
+            box-shadow: 10px 10px 8px 7px rgba(0,0,0,0.02);
+        }
+        
+        .wrapper {
+            margin: 0;
+            padding: 0;
+            border-radius: 25px;
+            height: 100%; /* Set the height to 100% of its parent (.content7) */
+        }
+
+        .wrap {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Set the height to 100% of its parent (.wrapper) */
+        }
+
+        .img {
+            max-height: 95%; /* Set the max height of the image to 100% of its parent (.wrap) */
+            width: auto; /* Ensure the image scales proportionally */
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+
+        .content3-text {
+            max-width: 400px;
+            padding: 1rem 0;
+            margin: 0;
+        }
+
+            .content3-text h2 {
+                font-size: 35px;
+            }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            margin: 0.7rem 0;
         }
 
         label {
-            display: block;
+            font-size: 18px;
+            margin-bottom: 10px;
         }
 
         input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+            padding: 10px 15px;
+            border: 0.3px solid #ccc; /* Light gray border */
+            border-radius: 8px;
+            margin: 0;
+            font-size: 16px;
+            font-weight: 300;
         }
 
-        #register-button {
-            background-color: red;
-            color: #fff; /* White text color */
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-weight: bold;
-        }
 
-            #register-button:hover {
-                background-color: darkred; /* Darker red on hover */
+            input:active {
+                border-color: lightgrey; /* Light gray border on focus */
             }
 
-        #error-message, #success-message {
-            margin-top: 10px;
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
         }
+
+        button {
+            padding: 15px 20px;
+            background-color: none; /* Red button background color */
+            border: 1.5px black solid;
+            color: black;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            button:hover {
+                background-color: black;
+                color: #fff
+            }
+
+        #register-prompt-link {
+            text-decoration: none;
+        }
+
+            #register-prompt-link:hover {
+                color: darkgreen;
+            }
     </style>
-</head>
-<body>
-    <div id="registration-container">
-        <h1>Register</h1>
-        <form id="register-form">
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+    </head>
+    <body style="background-color: whitesmoke">
+        <section class="content7">
+            <div class="wrapper">
+                <div class="wrap">
+                <img class="img" src="~/images/p2.jpg" alt="The Health Foundation logo">
+                </div>
+                <div class="content3-text">
+                    <h2>Create your account</h2><br />
+                    <form id="register-form">
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required autocomplete="off">
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required autocomplete="off">
+                        </div>
+                        <div class="input-group">
+                            <label for="con_password">Confirm Password</label>
+                            <input type="password" id="con_password" name="con_password" required autocomplete="off">
+                        </div>
+                        <div class="button-group">
+                            <button type="button" id="register-button">Register</button>
+                        </div>
+                    </form>
+                    <div id="error-message" style="color: red;"></div>
+                    <div id="success-message" style="color: green;"></div>
+                    <br /><br />
+                    <p>Already have an account?   <a href="./Login" id="register-prompt-link">Login</a></p>
+                </div>
+
             </div>
-            <div>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div>
-                <label for="con_password">Confirm Password:</label>
-                <input type="password" id="con_password" name="con_password" required>
-            </div>
-            <button type="button" id="register-button">Register</button>
-            <div id="error-message" style="color: red;"></div>
-            <div id="success-message" style="color: green;"></div>
-        </form>
-        <p>Already have an account? <a href="./Login">Login here</a></p>
-    </div>
+
+        </section>
 
 
     <script type="module">
