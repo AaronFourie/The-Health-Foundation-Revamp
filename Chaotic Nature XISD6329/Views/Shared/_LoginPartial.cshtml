@@ -1,7 +1,15 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
-
+<head>
+    <style>
+        #logout-button{
+            background-color: none;
+            border: white;
+            color: white
+        }
+    </style>
+</head>
 <ul class="navbar-nav" id="navbar-links">
 </ul>
 
@@ -34,10 +42,10 @@
             // User is signed in
             navbarLinks.innerHTML = `
                         <li class="nav-item">
-                            <span class="nav-link text-dark">Hello ${user.email}!</span>
+                            <span class="nav-link text-dark">Hello ${user.email}!</span> |
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link btn btn-link text-dark" id="logout-button">Logout</button>
+                            <button class="nav-link id="logout-button">Logout</button>
                         </li>
                     `;
             document.getElementById("logout-button").addEventListener("click", () => {
@@ -56,7 +64,7 @@
             // User is signed out
             navbarLinks.innerHTML = `
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="../Home/Register" style="margin-right: 8px">Register</a>
+                            <a class="nav-link text-dark" href="../Home/Register" style="margin-right: 8px">Register</a> |
                         </li>
                         <li class="nav-item">
                             <a class "nav-link text-dark" href="../Home/Login">Login</a>
