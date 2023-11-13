@@ -7,7 +7,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/login+register.css" asp-append-version="true" />
-    
+    <style>
+        #navbar {
+            background-color: none;
+        }
+
+        nav {
+            background-color: none;
+        }
+
+        h1 {
+            font-size: 36px; /* Adjust the font size to your preference */
+        }
+
+        p {
+            font-size: 18px; /* Adjust the font size to your preference */
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: green; /* Adjust the button background color to your preference */
+            color: #fff; /* Adjust the button text color to your preference */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px; /* Adjust the font size to your preference */
+            transition: background-color 0.3s;
+        }
+
+            .cta-btn:hover {
+                background-color: #06CE00;
+                color: #fff; /* Adjust the button hover background color to your preference */
+            }
+
+        .content7 {
+            height: 67vh;
+            max-width: 100%;
+            padding: 2rem 3rem;
+            margin: 5rem auto;
+            background: white;
+            border-radius: 25px;
+            box-shadow: 10px 10px 8px 7px rgba(0,0,0,0.02);
+        }
+
+        .wrapper {
+            margin: 0;
+            padding: 0;
+            border-radius: 25px;
+            height: 100%; /* Set the height to 100% of its parent (.content7) */
+        }
+
+        .wrap {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Set the height to 100% of its parent (.wrapper) */
+        }
+
+        .img {
+            max-height: 95%; /* Set the max height of the image to 100% of its parent (.wrap) */
+            width: auto; /* Ensure the image scales proportionally */
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+
+        .content3-text {
+            max-width: 400px;
+            padding: 1rem 0;
+            margin: 0;
+        }
+
+            .content3-text h2 {
+                font-size: 35px;
+            }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            margin: 0.7rem 0;
+        }
+
+        label {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 10px 15px;
+            border: 0.3px solid #ccc; /* Light gray border */
+            border-radius: 8px;
+            margin: 0;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+
+            input:active {
+                border-color: lightgrey; /* Light gray border on focus */
+            }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 15px 20px;
+            background-color: none; /* Red button background color */
+            border: 1.5px black solid;
+            color: black;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            button:hover {
+                background-color: black;
+                color: #fff
+            }
+
+        #register-prompt-link {
+            text-decoration: none;
+        }
+
+            #register-prompt-link:hover {
+                color: darkgreen;
+            }
+    </style>
 </head>
 <body style="background: whitesmoke">
 <section class="content7">
