@@ -1,6 +1,6 @@
 # Chaotic Nature XISD6329
 ---------------------------------------------
-This varsity project is a revamp of the 2022 Health Founddation website
+This varsity project is a revamp of the 2022 Health Foundation website
 
 Original Health Foundation Website: https://www.thehealthfoundation.org.za/
 
