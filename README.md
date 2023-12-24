@@ -8,7 +8,7 @@ June -> Website was initially made using plain HTML, CSS and little javascript
 
 November 2023 -> Updated to a fully ASP.Net Core Web App using firebase for the data layer and integrates paypal
 
-Azure published website link: https://chaoticnaturexisd632920231023001000.azurewebsites.net 
+Revamped Azure published website link: https://chaoticnaturexisd632920231023001000.azurewebsites.net 
 
 ---------------------------------------------
 PayPal SandBox Account Credentials:
