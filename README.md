@@ -1,5 +1,6 @@
 # Chaotic Nature XISD6329
 ---------------------------------------------
+Azure published website link: https://chaoticnaturexisd632920231023001000.azurewebsites.net 
 
 PayPal SandBox Account Credentials:
 ---------------------------------------------
