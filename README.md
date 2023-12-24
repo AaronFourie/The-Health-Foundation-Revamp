@@ -1,6 +1,8 @@
 # Chaotic Nature XISD6329
 ---------------------------------------------
-This website is a revamp of the 2022 Health Founddation website
+This varsity project is a revamp of the 2022 Health Founddation website
+
+Original Health Foundation Website: https://www.thehealthfoundation.org.za/
 
 June -> Website was initially made using plain HTML, CSS and little javascript
 
