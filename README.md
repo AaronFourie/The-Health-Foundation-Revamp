@@ -23,7 +23,6 @@ Password: sq{8*I^/
 Snapshots
 ---------
 ![Screenshot 2023-12-24 215232](https://github.com/AaronFourie/The-Health-Foundation-Revamp2/assets/103949239/92e404a2-5a50-44db-84c2-4cc8fc144fc5)
-![Screenshot 2023-12-24 215254](https://github.com/AaronFourie/The-Health-Foundation-Revamp2/assets/103949239/bc088478-e29e-48ff-b77d-2fc206eeeae6)
 ![Screenshot 2023-12-24 215403](https://github.com/AaronFourie/The-Health-Foundation-Revamp2/assets/103949239/317569a1-1062-4cdb-ac80-9d485d1f3268)
 ![Screenshot 2023-12-24 215414](https://github.com/AaronFourie/The-Health-Foundation-Revamp2/assets/103949239/353b937c-49e4-4d09-a9ae-d7eef2d1d9ed)
 ![Screenshot 2023-12-24 215425](https://github.com/AaronFourie/The-Health-Foundation-Revamp2/assets/103949239/a8ff6b7f-ee72-434f-843e-3e5a36f41a8b)
