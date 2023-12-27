@@ -1,4 +1,4 @@
-# Chaotic Nature XISD6329
+# The Health Foundation Revamp
 ---------------------------------------------
 This varsity project is a revamp of the 2022 Health Foundation website
 
